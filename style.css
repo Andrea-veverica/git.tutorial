@@ -1,0 +1,206 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(255, 255, 255);
+   }
+
+#my_form {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#my_border {
+    height: 70vh;
+    width: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(77, 77, 77);
+    border-radius: 5px;
+    color: cornsilk;
+
+}
+
+.h1{
+    align-items: center;
+    justify-content: center;
+}
+
+#btnR {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    width: 85%;
+    margin-top: 10px;
+    background-color: rgb(148, 148, 148);
+    border: none;
+    color: cornsilk;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#btnR:hover {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    width: 90%;
+    margin-top: 10px;
+    background-color: rgb(239, 239, 239);
+    border: none;
+    color: rgb(67, 67, 67);
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#btnR:focus {
+    background: #e94560;
+}
+
+
+#btnY {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    width: 85%;
+    margin-top: 10px;
+    background-color: rgb(148, 148, 148);
+    border: none;
+    color: cornsilk;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#btnY:hover {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    width: 90%;
+    margin-top: 10px;
+    background-color: rgb(239, 239, 239);
+    border: none;
+    color: rgb(67, 67, 67);
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#btnY:focus {
+    background: #ffd66b;
+}
+
+
+#btnB {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    width: 85%;
+    margin-top: 10px;
+    background-color: rgb(148, 148, 148);
+    border: none;
+    color: cornsilk;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#btnB:hover {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    width: 90%;
+    margin-top: 10px;
+    background-color: rgb(239, 239, 239);
+    border: none;
+    color: rgb(67, 67, 67);
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#btnB:focus {
+    background: #0278ae;
+}
+
+
+#btnG {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    width: 85%;
+    margin-top: 10px;
+    background-color: rgb(148, 148, 148);
+    border: none;
+    color: cornsilk;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#btnG:hover {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    width: 90%;
+    margin-top: 10px;
+    background-color: rgb(239, 239, 239);
+    border: none;
+    color: rgb(67, 67, 67);
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#btnG:focus {
+    background: #61b15a;
+}
+
+#btnReset {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    width: 85%;
+    margin-top: 10px;
+    background-color: rgb(148, 148, 148);
+    border: none;
+    color: cornsilk;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#btnReset:hover {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    width: 90%;
+    margin-top: 10px;
+    background-color: rgb(239, 239, 239);
+    border: none;
+    color: rgb(67, 67, 67);
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    #my_border {
+        width: 60vw;
+    }
+
+}
+
+
+@media (max-width: 1000px) {
+    #my_border {
+        width: 90vw;
+    }
+
+}
